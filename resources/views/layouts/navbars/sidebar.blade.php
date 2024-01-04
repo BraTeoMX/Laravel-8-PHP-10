@@ -1,8 +1,19 @@
 <!-- Sidebar.blade.php -->
 <style>
+    /* Estilo para los elementos .nav-link en estado normal */
+    .nav-link {
+        font-size: 16px; /* Cambia el tamaño de la fuente */
+        padding: 10px 20px; /* Aumenta el espaciado interno */
+        font-weight: bold; /* Hace que la letra sea más gruesa */
+        color: black;
+    }
     .nav-link:hover {
         background-color: #765341;
         color: white; /* Cambia el color del texto para que sea legible */
+    }
+    /* Clase personalizada para agregar sangría a la izquierda */
+    .custom-indent {
+        margin-left: 10px; /* Personaliza la cantidad de sangría según tus preferencias */
     }
 </style>
 
@@ -27,7 +38,7 @@
                 <i class="fas fa-film"></i> Multimedia
             </a>
             <div class="collapse" id="multimediaCollapse">
-                <ul class="nav flex-column ml-3">
+                <ul class="nav flex-column ml-3 custom-indent"> 
                     <li class="nav-item">
                         <a href="#" class="nav-link">Subir Videos</a>
                     </li>
@@ -36,7 +47,7 @@
                     </li>
                 </ul>
             </div>
-        </li>
+        </li>        
         <li class="nav-item">
             <a href="#" class="nav-link">
                 <i class="fas fa-cog"></i> Configuración
