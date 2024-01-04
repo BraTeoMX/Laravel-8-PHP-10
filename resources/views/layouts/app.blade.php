@@ -19,7 +19,9 @@
         <!-- Regular Sidebar for larger screens -->
         <!-- Use Bootstrap's d-none class to hide on xs to lg screens -->
         <div class="sidebar d-none d-lg-block">
-            @include('layouts.navbars.sidebar')
+            @if(Auth::check())
+                @include('layouts.navbars.sidebar')
+            @endif
         </div>
 
         <div class="flex-grow-1">
