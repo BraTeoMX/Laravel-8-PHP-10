@@ -64,3 +64,8 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Aclaracion/recordatorio
+
+Este programa esta funcionando con laravel version 10 y php 8.2 originalmente por lo cual se agrego Bootstrap 5.0 y para los elementos de los iconos se establecio fontawesome-free para obtener los iconos de forma local.
+si existe algo adicional por aqui lo estare agregando 
