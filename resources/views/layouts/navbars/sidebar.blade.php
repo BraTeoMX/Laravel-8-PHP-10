@@ -57,7 +57,7 @@
             <div class="collapse" id="adicionalCollapse">
                 <ul class="nav flex-column ml-3 custom-indent">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Uno</a>
+                        <a href="{{ route('formulario.datos') }}" class="nav-link">Uno</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">Dos</a>
