@@ -22,7 +22,7 @@ class FormularioDatosController extends Controller
     
         return view('formularios.datos', compact('puestos', 'departamentos', 'plantas'));
     }
-
+    //store = almacenar
     public function store(Request $request)
     {
         // Validación de datos
