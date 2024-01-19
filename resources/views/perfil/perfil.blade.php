@@ -12,6 +12,7 @@
                     <button class="btn btn-secondary">Pagina de prueba</button>
                     <hr>
                     <p>Elemento de prueba</p>
+                    <p>En este campo se introducira para iniciar cambios en la nueva rama y para actualizarlo tambien en GitHub</p>
                 </div>
             </div>
         </div>
