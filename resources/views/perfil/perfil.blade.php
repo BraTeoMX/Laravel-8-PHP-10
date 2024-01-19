@@ -10,6 +10,8 @@
                 <div class="card-body">
                     
                     <button class="btn btn-secondary">Pagina de prueba</button>
+                    <hr>
+                    <p>Elemento de prueba</p>
                 </div>
             </div>
         </div>
