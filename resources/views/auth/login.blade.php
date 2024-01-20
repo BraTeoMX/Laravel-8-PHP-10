@@ -86,7 +86,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-image: url('/images/fondo.jpg');
+        background-image: url('/images/fondo.jpeg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -94,7 +94,7 @@
         z-index: -1; /* Coloca el pseudo-elemento detrás del contenido principal */
     }
     .cambio-color {
-        background-color: #765341;
+        background-color: #d2360b;
         color: 
         white; /* Cambia el color del texto para que sea legible */
     }
