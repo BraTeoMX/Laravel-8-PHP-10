@@ -12,11 +12,9 @@ class PDFController extends Controller
 {
     public function generatePDF()
     {
-        $datosReporte = Reporte::all();
-        $datos = "..."; // Obtén los datos necesarios para el PDF
+        $reportes = Reporte::all();
 
-        
-        $pdf = PDF::loadView('reporte_pdf', compact('datos'));
+        $pdf = PDF::loadView('reportes_pdf', compact('reportes'));
         return $pdf->download('reporte.pdf');
     }
 }
