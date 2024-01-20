@@ -22,7 +22,7 @@ class FormularioDatosController extends Controller
     
         return view('formularios.datos', compact('puestos', 'departamentos', 'plantas'));
     }
-
+    //store = almacenar
     public function store(Request $request)
     {
         // Validación de datos
@@ -45,5 +45,11 @@ class FormularioDatosController extends Controller
 
         // Redirigir a alguna ruta con un mensaje de éxito
         return back()->with('success', 'Reporte guardado con éxito');
+    }
+
+    public function mostrar(){
+        $reportes = Reporte::all();
+
+        return view('formularios.mostrar', compact('reportes'));
     }
 }
