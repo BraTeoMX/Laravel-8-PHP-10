@@ -60,7 +60,7 @@
                         <a href="{{ route('formulario.datos') }}" class="nav-link">Uno</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Dos</a>
+                        <a href="{{ route('formulario.mostrar') }}" class="nav-link">Dos</a>
                     </li>
                 </ul>
             </div>

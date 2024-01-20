@@ -46,4 +46,10 @@ class FormularioDatosController extends Controller
         // Redirigir a alguna ruta con un mensaje de éxito
         return back()->with('success', 'Reporte guardado con éxito');
     }
+
+    public function mostrar(){
+        $reportes = Reporte::all();
+
+        return view('formularios.mostrar', compact('reportes'));
+    }
 }
