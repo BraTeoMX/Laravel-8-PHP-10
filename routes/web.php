@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PerfilController;
 use App\Http\Controllers\FormularioDatosController;
 use App\Http\Controllers\PDFController;
+use App\Http\Controllers\UsuarioController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,5 +36,8 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/formulario-datos', [FormularioDatosController::class, 'store']);
     //Ruta para generar el archivo PDF
     Route::get('/generar-pdf', [PDFController::class, 'generatePDF']);
+
+    Route::get('/inicioUsuario', [UsuarioController::class, 'inicioUsuario'])->name('usuario.inicioUsuario');
+
 
 });
